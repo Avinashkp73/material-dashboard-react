@@ -73,7 +73,7 @@ export default function data() {
     columns: [
       { Header: "companies", accessor: "companies", width: "45%", align: "left" },
       { Header: "members", accessor: "members", width: "10%", align: "left" },
-      { Header: "budget", accessor: "budget", align: "center" },
+      { Header: "End Date", accessor: "budget", align: "center" },
       { Header: "completion", accessor: "completion", align: "center" },
     ],
 
@@ -83,10 +83,10 @@ export default function data() {
         members: (
           <MDBox display="flex" py={1}>
             {avatars([
-              [team1, "Ryan Tompson"],
-              [team2, "Romina Hadid"],
-              [team3, "Alexander Smith"],
-              [team4, "Jessica Doe"],
+              [team1, "Avinash Kumar"],
+              [team2, "Smruti Ranjan Badatya"],
+              [team3, "Avinash Kp"],
+              [team4, "Smrutify"],
             ])}
           </MDBox>
         ),
@@ -106,8 +106,8 @@ export default function data() {
         members: (
           <MDBox display="flex" py={1}>
             {avatars([
-              [team2, "Romina Hadid"],
-              [team4, "Jessica Doe"],
+              [team2, "Smruti Ranjan Badatya"],
+              [team4, "Avinash Kumar"],
             ])}
           </MDBox>
         ),
@@ -127,8 +127,8 @@ export default function data() {
         members: (
           <MDBox display="flex" py={1}>
             {avatars([
-              [team1, "Ryan Tompson"],
-              [team3, "Alexander Smith"],
+              [team1, "Avinash Kumar"],
+              [team3, "Smruti Ranjan Badatya"],
             ])}
           </MDBox>
         ),
@@ -148,10 +148,9 @@ export default function data() {
         members: (
           <MDBox display="flex" py={1}>
             {avatars([
-              [team4, "Jessica Doe"],
-              [team3, "Alexander Smith"],
-              [team2, "Romina Hadid"],
-              [team1, "Ryan Tompson"],
+              [team4, "Avinash Kumar"],
+              [team3, "Smruti Ranjan Badatya"],
+              [team2, "Tom Holland"],
             ])}
           </MDBox>
         ),
@@ -170,7 +169,7 @@ export default function data() {
         companies: <Company image={logoJira} name="Add the New Pricing Page" />,
         members: (
           <MDBox display="flex" py={1}>
-            {avatars([[team4, "Jessica Doe"]])}
+            {avatars([[team4, "Avinash Kumar"]])}
           </MDBox>
         ),
         budget: (
@@ -189,8 +188,8 @@ export default function data() {
         members: (
           <MDBox display="flex" py={1}>
             {avatars([
-              [team1, "Ryan Tompson"],
-              [team4, "Jessica Doe"],
+              [team1, "Smruti Ranjan Badatya"],
+              [team4, "Avinash Kumar"],
             ])}
           </MDBox>
         ),
